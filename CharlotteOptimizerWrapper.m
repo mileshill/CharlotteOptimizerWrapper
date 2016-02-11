@@ -1,4 +1,2 @@
 
 
-(* Wolfram Language Raw Program *)
-
