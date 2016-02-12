@@ -1,1 +1,5 @@
-(* Wolfram Language package *)
+BeginPackage["DecisionVariables`"];
+
+DV[]:=dv
+
+EndPackage[];

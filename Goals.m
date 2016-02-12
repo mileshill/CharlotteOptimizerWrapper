@@ -1,1 +1,4 @@
-(* Wolfram Language package *)
+BeginPackage["Goals`"];
+Goals[]:=goals(* Wolfram Language package *);
+
+EndPackage[];

@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      1109,         45]
-NotebookOptionsPosition[       807,         29]
-NotebookOutlinePosition[      1144,         44]
-CellTagsIndexPosition[      1101,         41]
+NotebookDataLength[      2932,        104]
+NotebookOptionsPosition[      2300,         77]
+NotebookOutlinePosition[      2638,         92]
+CellTagsIndexPosition[      2595,         89]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -23,12 +23,60 @@ Cell[CellGroupData[{
 Cell["Charlotte Optimizer Wrapper", "Title",
  CellChangeTimes->{{3.664193267375931*^9, 3.66419327138743*^9}}],
 
+Cell[CellGroupData[{
+
 Cell["Initialization", "Section",
- CellChangeTimes->{{3.664193275002089*^9, 3.664193278810096*^9}}]
+ CellChangeTimes->{{3.664193275002089*^9, 3.664193278810096*^9}}],
+
+Cell["Assumptions:", "Text",
+ CellChangeTimes->{{3.664276778103284*^9, 3.664276779740838*^9}}],
+
+Cell["Directory set to file location", "Subsubitem",
+ CellChangeTimes->{{3.66427680172608*^9, 3.6642768112392597`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Quit", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.66419976011707*^9, 3.664199761767583*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"SetDirectory", "@", 
+   RowBox[{"NotebookDirectory", "[", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.664198015734864*^9, 3.6641980237420893`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"<<", "CharlotteOptimizerWrapper.m"}]], "Input",
+ CellChangeTimes->{{3.664198152152071*^9, 3.664198163919347*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"With", "[", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+    "lp", "=", "\"\</home/miles/Testing2/css-optimization-engine-1.1.6\>\""}],
+     "}"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"Setup", "[", "lp", "]"}]}], "\[IndentingNewLine]", "]"}]], "Input",\
+
+ CellChangeTimes->{{3.6642852409312487`*^9, 3.664285256506465*^9}, {
+  3.6642852912928743`*^9, 3.6642853019276657`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"localPath", "::", "def"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"localPath set to \
+\[NoBreak]\\!\\(\\*RowBox[{\\\"\\\\\\\"/home/miles/Testing2/css-optimization-\
+engine-1.1.6\\\\\\\"\\\"}]\\)\[NoBreak]\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.664285296563498*^9}]
+}, Open  ]]
+}, Open  ]]
 }, Open  ]]
 },
-WindowSize->{805, 876},
-WindowMargins->{{505, Automatic}, {14, Automatic}},
+WindowSize->{928, 1028},
+WindowMargins->{{Automatic, -32}, {Automatic, 29}},
 FrontEndVersion->"10.3 for Linux x86 (64-bit) (October 9, 2015)",
 StyleDefinitions->"Default.nb"
 ]
@@ -45,7 +93,18 @@ CellTagsIndex->{}
 Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 109, 1, 96, "Title"],
-Cell[692, 25, 99, 1, 67, "Section"]
+Cell[CellGroupData[{
+Cell[714, 27, 99, 1, 67, "Section"],
+Cell[816, 30, 94, 1, 33, "Text"],
+Cell[913, 33, 119, 1, 26, "Subsubitem"],
+Cell[1035, 36, 117, 2, 32, "Input"],
+Cell[1155, 40, 186, 4, 32, "Input"],
+Cell[1344, 46, 137, 2, 32, "Input"],
+Cell[CellGroupData[{
+Cell[1506, 52, 423, 10, 99, "Input"],
+Cell[1932, 64, 328, 8, 23, "Message"]
+}, Open  ]]
+}, Open  ]]
 }, Open  ]]
 }
 ]

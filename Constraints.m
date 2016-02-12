@@ -1,1 +1,4 @@
-(* Wolfram Language package *)
+BeginPackage["Constraints`"];
+Constraint[]:=cons
+
+EndPackage[];

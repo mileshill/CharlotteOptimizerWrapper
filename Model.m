@@ -1,1 +1,4 @@
-(* Wolfram Language package *)
+BeginPackage["Model`"];
+Model[]:=model
+
+EndPackage[];
